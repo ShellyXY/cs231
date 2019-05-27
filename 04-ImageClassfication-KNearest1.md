@@ -10,9 +10,9 @@ semantic gap
   no obvious way to hard-code the algorithm for recognizing a cat, or other classes.
 
   **Data-driven approach**
-  1.Collect a dataset of images and labels
-  2.Use ML to train an image classifier
-  3.Evaluate the classifier on a withheld set of test images
+  1. Collect a dataset of images and labels
+  2. Use ML to train an image classifier
+  3. Evaluate the classifier on a withheld set of test images
 
   ```python
   def train(train_images,train_labels):
